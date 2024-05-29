@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Duck Books</title>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.6.8/axios.min.js" integrity="sha512-PJa3oQSLWRB7wHZ7GQ/g+qyv6r4mbuhmiDb8BjSFZ8NZ2a42oTtAq5n0ucWAwcQDlikAtkub+tPVCw4np27WCg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://kit.fontawesome.com/ce8c6a5a73.js" crossorigin="anonymous"></script> 
+    <script src="index.js" defer></script>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <a href="index.html">
+            <p>Duck Books</p>
+        </a>
+        <div id="loginContainer">
+            <input type="text" name="usernameInput" id="usernameInput" placeholder="Username">
+            <input type="text" name="passwordInput" id="passwordInput" placeholder="Password">
+            <button id="registerBtn">Register</button>
+            <button id="loginBtn">Login</button>
+            <button id="logoutBtn">Log out</button>
+            <a href="myPages.html">
+                <button id="myPagesBtn">My pages</button>
+              </a>
+        </div>
+    </nav>
+
+    <header>
+        <h2 id="greetingToMyPages">Welcome to your own pages</h2>
+    </header>
+
+    <main>
+        <h3>Reading list</h3>
+
+        <div id="tbrContainer">
+            <!-- readinglist/tbr is loaded here -->
+        </div>
+    </main>
+
+
+</body>

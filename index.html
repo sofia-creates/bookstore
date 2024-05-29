@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Duck Books</title>
+
+    <!-- link in font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Bodoni:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
+
+    <!-- link scripts, axios and icons -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.6.8/axios.min.js" integrity="sha512-PJa3oQSLWRB7wHZ7GQ/g+qyv6r4mbuhmiDb8BjSFZ8NZ2a42oTtAq5n0ucWAwcQDlikAtkub+tPVCw4np27WCg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://kit.fontawesome.com/ce8c6a5a73.js" crossorigin="anonymous"></script> 
+    <script src="index.js" defer></script>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+ 
+<body>
+    <nav>
+        <img src="images/ducklingBooksLogo.png" alt="Duckling books logotype" id="navLogo">
+        <img src="images/ducklingBooksLogoWhite.png" alt="Duckling books logotype" id="navLogoWhite" class="hide">
+        
+        
+        <div id="loginContainer">
+            <input type="text" name="usernameInput" id="usernameInput" placeholder="Username">
+            <input type="text" name="passwordInput" id="passwordInput" placeholder="Password">
+            <button id="registerBtn">Register</button>
+            <button id="loginBtn">Login</button>
+            <button id="logoutBtn">Log out</button>
+            <button id="myPagesBtn"  class="hide"><i class="fa-solid fa-user"></i>  My pages</button>
+        </div>
+    </nav>
+
+    <img src="images/glitter-ball-10892_256.gif" width="350" height="300" id="discoball" class="hide"/>
+
+    <header>
+        <h1 id="greeting">Your source for awesome online books</h1>
+
+        <div id="sortingContainer" class="hide">
+        
+        </div>
+    </header>
+    
+
+<!-- <div id="adminControl">
+    
+        <select name="colorschemeSelect" id="colorschemeSelect">
+            <option value="lightmode">Lightmode</option>
+            <option value="darkmode">Darkmode</option>
+            <option value="funmode">Funmode</option>
+        </select>
+        <!-- <input type="radio" name="colorSchemeRadio" id="colorSchemeRadioLightmode" value="lightmode" default>
+            <input type="radio" name="colorSchemeRadio" id="colorSchemeRadioDarkmode" value="darkmode">
+            <input type="radio" name="colorSchemeRadio" id="colorSchemeRadioFun" value="funmode"> -->
+            <!-- </div> --> 
+            <div id="wrapper">
+                <main id="bookContainer">
+                </main>
+            </div>
+            
+            
+            <audio controls class="hide" id ="audioPlayer" >
+                <source src="joyful-jamboree-210564.mp3" type="audio/mpeg">
+              Your browser does not support the audio element.
+            </audio>
+            
+
+            <footer>
+                <p>© Duckling Books, 2024</p>
+                
+            </footer>
+        </body>
+        </html>
